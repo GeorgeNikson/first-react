@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderStyle from"../styles/Header.module.css";
+import HeaderStyle from"./Header.module.css";
 function Header() {
     return(
         <header className={HeaderStyle.header}>
