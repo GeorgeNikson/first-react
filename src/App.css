@@ -14,28 +14,3 @@ ul li {
   /* grid-gap: 10px; */
 }
 
-.header {
-  grid-area: h;
-  background-color: red;
-  padding: 5px;
-}
-
-.header img {
-  height: 50px;
-  width: 80px;
-}
-
-.nav {
-  grid-area: n;
-  background-color: green;
-}
-
-.content {
-  grid-area: c;
-  background-color: lightblue;
-}
-
-.content div img {
-  width: 100%;
-}
-
