@@ -1,5 +1,5 @@
 import React from "react";
-import MyPostsStyle from "./MyPosts.module.css";
+import style from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
 function Posts() {
@@ -11,8 +11,8 @@ function Posts() {
                 <button>Add new post</button>
                 <button>Delete</button>
             </div>
-            <Post />
-            <Post />
+            <Post message="It's my first post"/>
+            <Post message="I am learning react!"/>
             <Post />
             <Post />
         </div>

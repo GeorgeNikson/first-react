@@ -3,10 +3,11 @@
     background-color: green;
 }
 
-.item {
+.item a {
     color: white;
+    text-decoration: none;
 }
 
-.item.active {
+.item.active a {
     color: mediumvioletred;
 }

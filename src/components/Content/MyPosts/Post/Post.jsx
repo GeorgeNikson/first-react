@@ -1,13 +1,14 @@
 import React from "react";
-import PostStyle from "./Post.module.css";
+import style from "./Post.module.css";
+import PostImg from "../../../../assets/images/PostImg.png";
 
-function Post() {
+function Post(props) {
     return (
-        <div className={PostStyle.item}>
-            <img src="http://i.imgur.com/HQ3YU7n.gif" />
-            Post 1
+        <div className={style.item}>
+            <img src={PostImg}/>
+            {props.message}
             <div>
-                <span>Like</span>
+                <span>Like </span>
                 <span>Repost</span>
             </div>
         </div>

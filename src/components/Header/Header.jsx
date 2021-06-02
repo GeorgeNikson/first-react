@@ -1,9 +1,11 @@
 import React from "react";
-import HeaderStyle from"./Header.module.css";
+import style from"./Header.module.css";
+import logo from "../../assets/images/logo.png";
+
 function Header() {
     return(
-        <header className={HeaderStyle.header}>
-            <img src="https://cdn.logo.com/hotlink-ok/logo-social.png" />
+        <header className={style.header}>
+            <img src={logo} alt=""/>
         </header>
     );
 }

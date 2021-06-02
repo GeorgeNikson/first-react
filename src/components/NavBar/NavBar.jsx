@@ -5,19 +5,19 @@ function NavBar() {
     return (
         <nav className={NavStyles.nav}>
             <div className={NavStyles.item}>
-                <a>Profile</a>
+                <a href="/">Profile</a>
             </div>
             <div className={NavStyles.item}>
-                <a>News feed</a>
+                <a href="/">News feed</a>
             </div>
             <div className={`${NavStyles.item} ${NavStyles.active}`}>
-                <a>Messages</a>
+                <a href="/">Messages</a>
             </div>
             <div className={NavStyles.item}>
-                <a>Music</a>
+                <a href="/">Music</a>
             </div>
             <div className={NavStyles.item}>
-                <a>Settings</a>
+                <a href="/">Settings</a>
             </div>
         </nav>
     );
