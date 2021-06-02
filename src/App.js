@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route } from 'react-router-dom';
 import './App.css';
 import Content from './components/Content/Content';
 import Dialogs from './components/Dialogs';
@@ -11,10 +12,10 @@ function App() {
       <Header />
       <NavBar />
       <div className="app_wrapper_content">
-        <Dialogs />
-        {/* <Content /> */}
+        <Route path="/messages" exact component={Dialogs} />
+        <Route path="/profile" exact component={Content} />
       </div>
-      
+
       <footer></footer>
     </div>
   );
