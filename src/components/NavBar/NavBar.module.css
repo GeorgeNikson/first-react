@@ -4,6 +4,10 @@
     padding: 15px;
 }
 
+.item {
+    padding: 6px;
+}
+
 .item a {
     color: white;
     text-decoration: none;

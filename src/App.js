@@ -12,7 +12,7 @@ function App() {
       <Header />
       <NavBar />
       <div className="app_wrapper_content">
-        <Route path="/messages" exact component={Dialogs} />
+        <Route path="/messages"  component={Dialogs} />
         <Route path="/profile" exact component={Content} />
       </div>
 
