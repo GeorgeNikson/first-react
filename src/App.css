@@ -6,7 +6,7 @@ ul li {
   margin: 0 auto;
   width: 1140px;
   display: grid;
-  grid-template-rows: 60px 10fr;
+  grid-template-rows: 75px 10fr;
   grid-template-columns: 2fr 10fr;
   grid-template-areas: 
   "h h"
@@ -16,7 +16,7 @@ ul li {
 .app_wrapper_content {
   grid-area: c;
   background-color: rgb(240, 240, 240);
-  
+  padding: 15px;
 }
 
 
